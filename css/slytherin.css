@@ -1,0 +1,87 @@
+body {
+    background-image: url("../images/slytherin/bg2.webp");
+    background-size: cover;
+}
+.menu {
+    background-color: #51557E;
+    overflow: hidden;
+  }
+
+  .menu img{
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin-left: 50px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .menu a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 50px;
+  }
+  
+  /* Change the color of links on hover */
+  .menu a:hover {
+    border: 2px #fff solid;
+    /*background-color: #ddd;*/
+    /*color: black;*/
+    font-size: 19px;
+  }
+  
+  /* Add a color to the active/current link */
+  .menu a.active {
+    background-color: #E7AB79;
+    color: white;
+  }
+  .content{
+    width: 60%;
+    margin: 50px auto;
+}
+.content .students_container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px; 
+    background-color: #1A4D2E;
+    padding: 60px;
+    border-radius: 20px; 
+}
+.content .students_container > div{
+    height: 300px;
+    border: 1px #fff solid;
+    background-size: cover;
+}
+.content .students_container .first_item{
+    background-image: url("../images/slytherin/s1.jpeg");
+    grid-column: 1 /3;
+}
+.content .students_container .second_item{
+    background-image: url("../images/slytherin/s2.jpeg");
+    grid-column: 3 /5;
+}
+.content .students_container .third_item{
+    background-image: url("../images/slytherin/s3.jpeg");
+    grid-column: 1 /3;
+}
+.content .students_container .fourth_item{
+    background-image: url("../images/slytherin/s4.jpeg");
+    grid-column: 3 /4;
+}
+.content .students_container .fifth_item{
+    background-image: url("../images/slytherin/s5.jpeg");
+    grid-column: 4 /5;
+}
+.content .about_slytherin{
+    width: 100%;
+    height: fit-content;
+    background-color: #191A19;
+    color: #4E9F3D;
+    padding: 30px  0;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 20px;
+}

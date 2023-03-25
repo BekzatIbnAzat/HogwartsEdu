@@ -1,0 +1,105 @@
+body {
+    background-color: #1B2430;
+}
+section{
+    width: 100%;
+    height: 100%;
+}
+
+.menu {
+    background-color: #51557E;
+    overflow: hidden;
+  }
+
+  .menu img{
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin-left: 50px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .menu a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 50px;
+  }
+  
+  /* Change the color of links on hover */
+  .menu a:hover {
+    border: 2px #fff solid;
+    /*background-color: #ddd;*/
+    /*color: black;*/
+    font-size: 19px;
+  }
+  
+  /* Add a color to the active/current link */
+  .menu a.active {
+    background-color: #E7AB79;
+    color: white;
+  }
+  .content{
+    width: 60%;
+    height: fit-content;
+    margin: 50px auto;
+    color: #fff;
+  }
+  .content .overview{
+    display: flex;
+    justify-content: center;
+  }
+  .content .overview span{
+    font-size: 30px;
+    font-weight: 900;
+  }
+  .content .subjects{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 30px;
+  }
+  .content .all_classes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-top: 50px;
+    font-weight: 900;
+    transition: all 0.5s ease-in;
+}
+.content .all_classes > div{
+    height: 300px;
+    border: 1px #fff solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.content .all_classes > div:hover{
+    opacity: 0.7;
+    transform: scale(1.10);
+}
+.content .all_classes a{
+    text-decoration: none;
+    color: #fff;
+}
+.content .all_classes .text_area{
+    padding: 100px;
+}
+.content .all_classes .core_classes{
+    background: linear-gradient(rgba(20,20,20, 0.7),
+    rgba(20,20,20, 0.6)), url('../images/hogwarts.jpeg');
+}
+.content .all_classes .electives{
+    background: linear-gradient(rgba(20,20,20, 0.7),
+    rgba(20,20,20, 0.6)), url('../images/hogwarts2.jpeg');
+    background-size: cover;
+}
+.content .all_classes .extra_cirricular_subjects{
+    background: linear-gradient(rgba(0,0,0, 0.7),
+    rgba(0,0,0, 0.6)), url('../images/hogwarts3.jpeg');
+    background-size: cover;
+}

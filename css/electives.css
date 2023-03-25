@@ -1,0 +1,98 @@
+body {
+    background-color: #1B2430;
+}
+.menu {
+    background-color: #51557E;
+    overflow: hidden;
+  }
+
+  .menu img{
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin-left: 50px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .menu a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 50px;
+  }
+  
+  /* Change the color of links on hover */
+  .menu a:hover {
+    border: 2px #fff solid;
+    /*background-color: #ddd;*/
+    /*color: black;*/
+    font-size: 19px;
+  }
+  
+  /* Add a color to the active/current link */
+  .menu a.active {
+    background-color: #E7AB79;
+    color: white;
+  }
+  .content{
+    width: 60%;
+    height: fit-content;
+    margin: 50px auto;
+    color: #fff;
+  }
+  .content .core_classes{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;  
+}
+.content .core_classes > div{
+    height: 150px;
+    border: 1px #fff solid;
+    color: #fff;
+}
+.content .core_classes .first_class{
+    background: linear-gradient(rgba(20,20,20, 0.7),
+    rgba(20,20,20, 0.6)), url('../images/core_classes/astronomy2.jpeg');
+    background-size: cover;
+    grid-column: 1 /4;
+    overflow: hidden;
+}
+.content .core_classes .second_class{
+    background: linear-gradient(rgba(20,20,20, 0.7),
+    rgba(20,20,20, 0.6)), url('../images/core_classes/charms2.jpeg');
+    background-size: cover;
+    grid-column: 4 /6;
+}
+.content .core_classes .third_class{
+    background: linear-gradient(rgba(20,20,20, 0.7),
+    rgba(20,20,20, 0.6)), url('../images/core_classes/dark_arts.jpeg');
+    background-size: cover;
+    grid-column: 1 /3;
+}
+.content .core_classes .fourth_class{
+    background: linear-gradient(rgba(20,20,20, 0.7),
+    rgba(20,20,20, 0.6)), url('../images/core_classes/df_against_da2.jpeg');
+    background-size: cover;
+    grid-column: 3 /6;
+}
+.content .core_classes .fifth_class{
+    background: linear-gradient(rgba(20,20,20, 0.7),
+    rgba(20,20,20, 0.6)), url('../images/core_classes/herbology2.jpeg');
+    background-size: cover;
+    grid-column: 1 /4;
+}
+.content .core_classes .sixth_class{
+    background: linear-gradient(rgba(20,20,20, 0.7),
+    rgba(20,20,20, 0.6)), url('../images/core_classes/history_of_magic2.jpeg');
+    background-size: cover;
+    grid-column: 4 /6;
+}
+.content .core_classes .seventh_class{
+    background: linear-gradient(rgba(20,20,20, 0.7),
+    rgba(20,20,20, 0.6)), url('../images/core_classes/potions2.jpeg');
+    background-size: cover;
+    grid-column: 1 /3;
+}

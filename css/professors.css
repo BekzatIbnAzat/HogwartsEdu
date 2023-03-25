@@ -1,0 +1,89 @@
+body {
+    background-color: #1B2430;
+}
+section{
+    width: 100%;
+    height: 100%;
+}
+.menu {
+    background-color: #51557E;
+    overflow: hidden;
+  }
+
+  .menu img{
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin-left: 50px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .menu a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 50px;
+  }
+  
+  /* Change the color of links on hover */
+  .menu a:hover {
+    border: 2px #fff solid;
+    /*background-color: #ddd;*/
+    /*color: black;*/
+    font-size: 19px;
+  }
+  
+  /* Add a color to the active/current link */
+  .menu a.active {
+    background-color: #E7AB79;
+    color: white;
+  }
+  .content{
+    width: 40%;
+    margin: 50px auto;
+}
+.content .core_classes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;  
+}
+.content .core_classes > div{
+    height: 150px;
+    border: 1px #fff solid;
+    color: #fff;
+}
+.content .core_classes .first_class{
+    background-image: url("../images/p1.jpeg");
+    background-size: cover;
+}
+.content .core_classes .second_class{
+    background-image: url("../images/t2.jpeg");
+    background-size: cover;
+}
+.content .core_classes .third_class{
+    background-image: url("../images/t3.webp");
+    background-size: cover;
+}
+.content .core_classes .fourth_class{
+    background-image: url("../images/t4_2.webp");
+    background-size: cover;
+}
+.content .core_classes .fifth_class{
+    background-image: url("../images/t5.jpeg");
+    background-size: cover;
+}
+.content .core_classes .sixth_class{
+    background-image: url("../images/t6.jpeg");
+    background-size: cover;
+}
+.content .core_classes .seventh_class{
+    background-image: url("../images/t7.jpeg");
+    background-size: cover;
+}
+.content .core_classes .eighth_class{
+    background-image: url("../images/t8.jpeg");
+    background-size: cover;
+}
